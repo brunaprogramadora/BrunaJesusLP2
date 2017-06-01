@@ -30,9 +30,6 @@ namespace Cursos
             new Cadastro().Show();
         }
 
-        private void pagCursos_btn__Click(object sender, RoutedEventArgs e)
-        {
-            new Cursos().Show();
-        }
+        
     }
 }

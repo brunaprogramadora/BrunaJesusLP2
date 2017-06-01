@@ -30,6 +30,7 @@ namespace Cursos
             Curso c = new Curso();
             c.nome = nome_txt.Text;
             c.descricao = descricao_txt.Text;
+
             MySqlCommand cmd = new MySqlCommand
             {
                 Connection = new MySqlConnection("Server=localhost;Database=cursos;Uid=root;pwd="),
@@ -45,6 +46,7 @@ namespace Cursos
 
             descricao_txt.Clear();
             nome_txt.Clear();
+
         }
     }
 }
